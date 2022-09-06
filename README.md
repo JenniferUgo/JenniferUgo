@@ -1,4 +1,4 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Jennifer Ugo
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Jennifer Ugo N
 ====================================================================================================================================
 
 Automation Test Engineer | Business Analyst | Customer Success Manager
@@ -7,7 +7,7 @@ Automation Test Engineer | Business Analyst | Customer Success Manager
 I'm an Automation Test Engineer looking to obtain a challenging and responsible position in the area of Software Automation Testing, where my knowledge, ability and dedication will be utilised.
 
 *   ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
-*   🧠  I'm learning SQL and Database Administration
+*   🧠  I'm currently upskilling with SQL and Database Administration
 *   🤝  I'm open to collaborating on any Automation Test project
 *   ⚡  Open to Work 
 ### Skills
@@ -20,7 +20,8 @@ I'm an Automation Test Engineer looking to obtain a challenging and responsible 
                     </p>
                     
 ### Socials                 
-<p align="left">  <a href="https://www.github.com/TheJunnCode" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>                 
+<p align="left">  
+<a href="https://www.github.com/thejunncode" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>                 
 <a href="https://www.linkedin.com/in/jennifer-nkemakolam" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>### Badges<b>My GitHub Stats</b>
 <a href="http://www.github.com/TheJunnCode"><img src="https://github-readme-stats.vercel.app/api?username=TheJunnCode&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="TheJunnCode's GitHub stats" /></a>
 <a href="http://www.github.com/TheJunnCode"><img src="https://github-readme-streak-stats.herokuapp.com/?user=TheJunnCode&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
