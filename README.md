@@ -19,10 +19,9 @@ I'm an Automation Test Engineer looking to obtain a challenging and responsible 
                                 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
                     </p>
                     
-                  ### Socials
+### Socials
                   
-                  
-                <p align="left">
+<p align="left">
                           
                       <a href="https://www.github.com/TheJunnCode" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
                           
