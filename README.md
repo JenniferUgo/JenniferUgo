@@ -1,14 +1,14 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Jennifer Ugo N
 ====================================================================================================================================
 
-Automation Test Engineer | Business Analyst | Customer Success Manager
+Software Quality Assurance Engineer
 ----------------------------------------------------------------------
 
 I'm an Automation Test Engineer looking to obtain a challenging and responsible position in the area of Software Automation Testing, where my knowledge, ability and dedication will be utilised.
 
 *   ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
-*   🧠  I'm currently upskilling with SQL and Database Administration
-*   🤝  I'm open to collaborating on any Automation Test project
+*   🧠  I'm currently upskilling with SQL and API Testing
+*   🤝  I'm open to collaborating on any ManualTest project
 *   ⚡  Open to Work 
 ### Skills
 <p align="left">
