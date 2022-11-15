@@ -4,7 +4,9 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Software Quality Assurance Engineer
 ----------------------------------------------------------------------
 
-I'm an Automation Test Engineer looking to obtain a challenging and responsible position in the area of Software Automation Testing, where my knowledge, ability and dedication will be utilised.
+Software-savvy quality assurance professional committed to ensuring proper functionality and usability of software products before release, with the desire to do the best possible job and produce outstanding quality products. I plan test schedules and strategies according to project scope and delivery dates. I monitor and track bug resolutions and review software documentation to verify technical accuracy and completeness to mitigate risks. 
+With experience in manual, API, and basic knowledge in Web UI automation testing, I have knowledge of tools such as JIRA, Postman, Git and Selenium WebDriver.
+
 
 *   ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
 *   🧠  I'm currently upskilling with SQL and API Testing
