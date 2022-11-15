@@ -10,7 +10,7 @@ With experience in manual, API, and basic knowledge in Web UI automation testing
 
 *   ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
 *   🧠  I'm currently upskilling with SQL and API Testing
-*   🤝  I'm open to collaborating on any ManualTest project
+*   🤝  I'm open to collaborating on any Manual Test project
 *   ⚡  Open to Work 
 ### Skills
 <p align="left">
