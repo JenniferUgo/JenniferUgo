@@ -8,7 +8,7 @@ Software-savvy quality assurance professional committed to ensuring proper funct
 
 * ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
 * 🧠  I'm currently upskilling with SQL and API Testing
-* 🤝  I'm open to collaborating on I'm open to collaborating on any Test project
+* 🤝  I'm open to collaborating on any Test project
 * ⚡  Open to work
 
 ### Skills
