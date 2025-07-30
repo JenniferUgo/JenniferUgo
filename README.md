@@ -1,15 +1,35 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Jennifer Ugo
 ====================================================================================================================================
 
-Software Quality Assurance Engineer
+AI Systems Architect | Automation Consultant | Frontend Developer
 -----------------------------------
 
-Software-savvy quality assurance professional committed to ensuring proper functionality and usability of software products before release, with the desire to do the best possible job and produce outstanding quality products. I plan test schedules and strategies according to project scope and delivery dates. I monitor and track bug resolutions and review software documentation to verify technical accuracy and completeness to mitigate risks. With experience in manual, API, and basic knowledge in Web UI automation testing, I have knowledge of tools such as JIRA, Postman, Git and Selenium WebDriver.
+Got it. Here's a refined version of the summary without naming specific tools, but still clear, professional, and aligned with your current focus:
 
-* ✉️  You can contact me at [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
-* 🧠  I'm currently upskilling with React, Typescript, NextJs, Tailwind and other Frontend tools
-* 🤝  I'm open to collaborating on Frontend projects
-* ⚡  Open to work
+---
+
+**Hi 👋 My name is Jennifer Ugo**
+**AI Systems Architect | Automation Consultant | Frontend Developer**
+
+I design AI-powered systems that help businesses automate operations, improve customer experience, and increase revenue without increasing workload. My work spans intelligent voice agents, smart chatbots, and automation flows that plug directly into real business processes-driving results with less manual effort.
+
+Right now, I focus on:
+
+* Automating end-to-end workflows that help small teams scale like enterprise ones
+* Building AI Voice Agents that sell, qualify leads, or provide support
+* Developing intelligent chat interfaces that handle conversations like a real team member
+
+
+I started out in software QA and frontend development, so I bring a strong foundation in product quality, clean interfaces, and edge-case thinking. That experience helps me build systems that aren’t just functional, but reliable and user-friendly too.
+
+I’m always open to meaningful projects, collaborations, or sharing what I’ve learned along the way.
+
+
+
+* 📩 Contact: jenniferugo.nn@gmail.com
+* 💡 Open to AI consulting or automation projects
+* Always exploring new ways to apply AI in business
+
 
 ### Skills
 
