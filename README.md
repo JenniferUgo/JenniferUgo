@@ -4,9 +4,6 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 AI Systems Architect | Automation Consultant | Frontend Developer
 -----------------------------------
 
-Got it. Here's a refined version of the summary without naming specific tools, but still clear, professional, and aligned with your current focus:
-
----
 
 **Hi 👋 My name is Jennifer Ugo**
 **AI Systems Architect | Automation Consultant | Frontend Developer**
@@ -29,6 +26,7 @@ I’m always open to meaningful projects, collaborations, or sharing what I’ve
 * 📩 Contact: jenniferugo.nn@gmail.com
 * 💡 Open to AI consulting or automation projects
 * Always exploring new ways to apply AI in business
+
 
 
 ### Skills
