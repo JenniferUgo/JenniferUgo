@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)I'm Jennifer
 ====================================================================================================================================
 
-AI Systems Architect | Automation Consultant | Frontend Developer
+AI Systems Architect | Automation Consultant | Software Developer
 -----------------------------------
 
 I design AI-powered systems that help businesses automate operations, improve customer experience, and increase revenue without increasing workload. My work spans intelligent voice agents, smart chatbots, and automation flows that plug directly into real business processes-driving results with less manual effort.
