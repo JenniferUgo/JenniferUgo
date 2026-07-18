@@ -55,7 +55,7 @@ I now work across the full product lifecycle, from identifying the business prob
 
 ## Contact
 
-📩 [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
+📩 [jennifer@junndigital.com](mailto:jennifer@junndigital.com)
 
 
 
