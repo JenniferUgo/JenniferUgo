@@ -1,28 +1,61 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)I'm Jennifer
 ====================================================================================================================================
 
-AI Systems Architect | Automation Consultant | Software Developer
+Technical Founder | AI Product Architect | Software Developer
 -----------------------------------
 
-I design AI-powered systems that help businesses automate operations, improve customer experience, and increase revenue without increasing workload. My work spans intelligent voice agents, smart chatbots, and automation flows that plug directly into real business processes-driving results with less manual effort.
 
-Right now, I focus on:
+I design, build, and operate software products that solve practical business problems.
 
-* Automating end-to-end workflows that help small teams scale like enterprise ones
-* Building AI Voice Agents that sell, qualify leads, or provide support
-* Developing intelligent chat interfaces that handle conversations like a real team member
+My work spans product architecture, SaaS development, AI-powered workflows, payments, ecommerce infrastructure, automation, and client-facing business systems.
+
+I am currently building two main products:
+
+## What I'm building
+
+### Searchmonial
+
+Searchmonial is white-label AI Visibility Optimization infrastructure for agencies.
+
+It helps agencies audit client visibility, connect client websites, build prioritized improvement plans, optimize pages, schema, AI context, reviews, and answer-ready content, monitor discovery activity, and send branded client reports.
 
 
-I started out in software QA and frontend development, so I bring a strong foundation in product quality, clean interfaces, and edge-case thinking. That experience helps me build systems that aren’t just functional, but reliable and user-friendly too.
+### Vaendora
 
-I’m always open to meaningful projects, collaborations, or sharing what I’ve learned along the way.
+Vaendora is AI-powered commerce and payments infrastructure for online businesses.
 
+It combines storefront tools, payment verification, customer engagement, business automation, AI assistance, and ecommerce operations in one platform.
 
+## What I work across
 
-* 📩 Contact: jenniferugo.nn@gmail.com
-* 💡 Open to AI consulting or automation projects
-* Always exploring new ways to apply AI in business
+- Product architecture and technical strategy
+- SaaS application development
+- AI workflows and business automation
+- Payment, settlement, and billing integrations
+- WordPress and WooCommerce systems
+- APIs and third-party integrations
+- User experience and product design
+- Quality assurance and release workflows
+- Production debugging and reliability
 
+## My background
+
+I started in software quality assurance and frontend development.
+
+That background still shapes how I build products today: I care about clear interfaces, edge cases, reliable systems, and software that works beyond the demo.
+
+I now work across the full product lifecycle, from identifying the business problem and designing the architecture to implementation, deployment, testing, and go-to-market.
+
+## Currently
+
+- Building Searchmonial
+- Building and operating Vaendora
+- Developing software through Junn Digital
+- Open to selective SaaS, AI, automation, and product consulting projects
+
+## Contact
+
+📩 [jenniferugo.nn@gmail.com](mailto:jenniferugo.nn@gmail.com)
 
 
 ### Skills
