@@ -164,7 +164,7 @@ def update_readme():
              '<p>\n'
              '  <img src="./assets/profile-stats/languages.svg" alt="Programming language footprint across accessible public and private repositories" width="800" />\n'
              '</p>\n'
-             END_MARKER)
+             + END_MARKER)
     if START_MARKER in current and END_MARKER in current:
         start = current.index(START_MARKER)
         end = current.index(END_MARKER, start) + len(END_MARKER)
