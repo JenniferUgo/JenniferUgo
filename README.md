@@ -127,18 +127,10 @@ I now work across the full product lifecycle, from identifying the business prob
 
 <p align="left"> <a href="https://www.github.com/JenniferUgo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/jennifer-nkemakolam" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
-### Badges
+## Development Activity
 
-<b>My GitHub Stats</b>
+I work across public and private repositories, including commercial SaaS products, AI integrations, and ecommerce infrastructure.
 
-<a href="http://www.github.com/JenniferUgo"><img src="https://github-readme-stats.vercel.app/api?username=JenniferUgo&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="JenniferUgo's GitHub stats" /></a>
+GitHub's native contribution calendar below this README shows eligible activity from both public and private repositories, without revealing private repository names or source code.
 
-<a href="http://www.github.com/JenniferUgo"><img src="https://github-readme-streak-stats.herokuapp.com/?user=JenniferUgo&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-
-<a href="http://www.github.com/JenniferUgo"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=JenniferUgo&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
-<a href="https://github.com/JenniferUgo" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JenniferUgo&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-
-<b>Top Repositories</b>
-
-<div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
+**Note:** Much of my recent product development takes place in private repositories under Junn Digital. The public repositories shown here are not a complete representation of my current work.
