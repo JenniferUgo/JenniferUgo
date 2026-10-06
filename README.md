@@ -134,3 +134,12 @@ I work across public and private repositories, including commercial SaaS product
 GitHub's native contribution calendar below this README shows eligible activity from both public and private repositories, without revealing private repository names or source code.
 
 **Note:** Much of my recent product development takes place in private repositories under Junn Digital. The public repositories shown here are not a complete representation of my current work.
+
+<!-- profile-stats:start -->
+<p>
+  <img src="./assets/profile-stats/activity.svg" alt="GitHub contributions including anonymized private activity" width="800" />
+</p>
+<p>
+  <img src="./assets/profile-stats/languages.svg" alt="Programming language footprint across accessible public and private repositories" width="800" />
+</p>
+<!-- profile-stats:end -->
