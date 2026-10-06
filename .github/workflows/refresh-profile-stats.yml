@@ -1,0 +1,51 @@
+name: Refresh profile statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 6 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate privacy-preserving cards
+        env:
+          GH_PUBLIC_TOKEN: ${{ github.token }}
+          GH_PRIVATE_READ_TOKEN: ${{ secrets.STATS_PRIVATE_READ_TOKEN }}
+        shell: bash
+        run: |
+          if [[ -z "$GH_PRIVATE_READ_TOKEN" ]]; then
+            echo "::notice::Waiting for the STATS_PRIVATE_READ_TOKEN repository secret; no changes made."
+            exit 0
+          fi
+          python3 scripts/generate_profile_stats.py
+
+      - name: Publish generated SVGs
+        shell: bash
+        run: |
+          if [[ ! -f assets/profile-stats/activity.svg || ! -f assets/profile-stats/languages.svg ]]; then
+            echo "No validated statistics were generated; skipping publication."
+            exit 0
+          fi
+          git add -- README.md assets/profile-stats/activity.svg assets/profile-stats/languages.svg
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'chore: refresh private-inclusive profile metrics'
+          git push
