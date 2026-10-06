@@ -21,6 +21,9 @@ jobs:
         with:
           persist-credentials: true
 
+      - name: Validate profile generator syntax
+        run: python3 -m py_compile scripts/generate_profile_stats.py
+
       - name: Generate privacy-preserving cards
         env:
           GH_PUBLIC_TOKEN: ${{ github.token }}
