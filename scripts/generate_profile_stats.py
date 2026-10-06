@@ -21,8 +21,8 @@ OUTPUT_DIR = Path("assets/profile-stats")
 README_PATH = Path("README.md")
 START_MARKER = "<!-- profile-stats:start -->"
 END_MARKER = "<!-- profile-stats:end -->"
-COLORS = {"bg": "#0b2432", "panel": "#123748", "text": "#f0f7fa",
-          "muted": "#c5d4dc", "accent": "#c7e160", "track": "#315160"}
+COLORS = {"bg": "#0d1117", "panel": "#161b22", "text": "#e6edf3",
+          "muted": "#919ba6", "accent": "#c7e160", "track": "#30363d", "border": "#30363d"}
 
 def api_request(url, token, data=None):
     headers = {"Authorization": "Bearer " + token, "Accept": "application/vnd.github+json",
@@ -114,26 +114,31 @@ def esc(value):
 
 def heading(title, subtitle):
     c = COLORS
-    return (f'<rect width="800" height="100%" rx="18" fill="{c["bg"]}"/>'
-            f'<text x="32" y="49" font-size="24" font-weight="700" fill="{c["text"]}">{esc(title)}</text>'
-            f'<text x="32" y="74" font-size="14" fill="{c["muted"]}">{esc(subtitle)}</text>')
+    return (f'<rect x="0.5" y="0.5" width="799" height="99%" rx="13" '
+            f'fill="{c["bg"]}" stroke="{c["border"]}"/>'
+            f'<text x="32" y="43" font-size="21" font-weight="700" fill="{c["text"]}">{esc(title)}</text>'
+            f'<text x="32" y="68" font-size="13" fill="{c["muted"]}">{esc(subtitle)}</text>')
 
 def svg_activity(total, restricted, private_repos, total_repos, now):
     c = COLORS
-    pieces = [f'<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">',
-              heading("GitHub Activity", "Rolling 12 months • GitHub contribution calendar")]
+    pieces = ['<svg xmlns="http://www.w3.org/2000/svg" width="800" height="215" '
+              'viewBox="0 0 800 215" font-family="Arial, Helvetica, sans-serif">',
+              heading("GitHub Activity", "Rolling 12 months · GitHub contribution calendar")]
     values = [("Contributions", f"{total:,}"),
               ("Private / restricted", f"{restricted:,}"),
               ("Repositories analysed", str(total_repos))]
     for i, (label, value) in enumerate(values):
-        x = 32 + i * 252
+        x = 146 + i * 254
         pieces.extend([
-            f'<rect x="{x}" y="99" width="236" height="81" rx="10" fill="{c["panel"]}"/>',
-            f'<text x="{x + 16}" y="133" font-size="25" font-weight="700" fill="{c["accent"]}">{esc(value)}</text>',
-            f'<text x="{x + 16}" y="158" font-size="13" fill="{c["text"]}">{esc(label)}</text>'])
-    pieces.append(f'<text x="32" y="205" font-size="12" fill="{c["muted"]}">'
-                  f'Private contributions are anonymized. {private_repos} private repositories in language analysis. '
-                  f'Updated {now:%Y-%m-%d}.</text></svg>')
+            f'<text x="{x}" y="130" font-size="30" font-weight="700" '
+            f'fill="{c["text"]}" text-anchor="middle">{esc(value)}</text>',
+            f'<text x="{x}" y="154" font-size="13" fill="{c["muted"]}" '
+            f'text-anchor="middle">{esc(label)}</text>'])
+    for x in (273, 527):
+        pieces.append(f'<line x1="{x}" y1="104" x2="{x}" y2="162" stroke="{c["border"]}"/>')
+    pieces.append(f'<text x="32" y="192" font-size="12" fill="{c["muted"]}">'
+                  f'Private contributions are anonymized · {private_repos} private repositories analysed · '
+                  f'Updated {now:%Y-%m-%d}</text></svg>')
     return "".join(pieces)
 
 def svg_languages(languages, repo_count):
@@ -141,17 +146,20 @@ def svg_languages(languages, repo_count):
     entries = languages.most_common(7)
     grand = sum(languages.values())
     height = 148 + len(entries) * 44
-    pieces = [f'<svg xmlns="http://www.w3.org/2000/svg" width="800" height="{height}" viewBox="0 0 800 {height}">',
+    pieces = [f'<svg xmlns="http://www.w3.org/2000/svg" width="800" height="{height}" '
+              f'viewBox="0 0 800 {height}" font-family="Arial, Helvetica, sans-serif">',
               heading("Repository Languages", f"Code footprint across {repo_count} accessible repositories")]
     for i, (lang, count) in enumerate(entries):
-        y = 112 + i * 44
+        y = 108 + i * 44
         fraction = count / grand
         pieces += [
-            f'<text x="32" y="{y}" font-size="14" fill="{c["text"]}">{esc(lang)}</text>',
-            f'<rect x="195" y="{y - 14}" width="485" height="13" rx="6" fill="{c["track"]}"/>',
-            f'<rect x="195" y="{y - 14}" width="{round(485 * fraction, 1)}" height="13" rx="6" fill="{c["accent"]}"/>',
-            f'<text x="698" y="{y - 1}" font-size="13" fill="{c["text"]}">{fraction * 100:.1f}%</text>']
-    pieces += [f'<text x="32" y="{height - 21}" font-size="12" fill="{c["muted"]}">'
+            f'<text x="32" y="{y}" font-size="14" font-weight="600" fill="{c["text"]}">{esc(lang)}</text>',
+            f'<text x="768" y="{y}" font-size="13" fill="{c["muted"]}" '
+            f'text-anchor="end">{fraction * 100:.1f}%</text>',
+            f'<rect x="32" y="{y + 11}" width="736" height="9" rx="4.5" fill="{c["track"]}"/>',
+            f'<rect x="32" y="{y + 11}" width="{round(736 * fraction, 1)}" height="9" '
+            f'rx="4.5" fill="{c["accent"]}"/>']
+    pieces += [f'<text x="32" y="{height - 20}" font-size="12" fill="{c["muted"]}">'
                'Language bytes across repositories; not personally authored code.</text></svg>']
     return "".join(pieces)
 
