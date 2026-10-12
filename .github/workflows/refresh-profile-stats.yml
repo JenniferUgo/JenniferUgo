@@ -3,7 +3,7 @@ name: Refresh profile statistics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 6 * * 1"
+    - cron: "47 6 * * *" 
 
 permissions:
   contents: write
